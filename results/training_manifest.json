@@ -1,0 +1,31 @@
+{
+  "repository": "/kaggle/working/filament-seg",
+  "data_root": "/kaggle/input/competitions/filament-segmentation-2026/MAGFiLO_1.0_Kaggle_2026",
+  "output": "/kaggle/working/filament_outputs",
+  "checkpoints": [
+    {
+      "path": "/kaggle/working/filament_outputs/unet_resnet34_last.pt",
+      "size_mb": 93.37
+    },
+    {
+      "path": "/kaggle/working/filament_outputs/unet_resnet34.pt",
+      "size_mb": 93.37
+    },
+    {
+      "path": "/kaggle/working/filament_outputs/detector/detector_last.pt",
+      "size_mb": 19.64
+    },
+    {
+      "path": "/kaggle/working/filament_outputs/detector/detector_best.pt",
+      "size_mb": 19.64
+    },
+    {
+      "path": "/kaggle/working/filament_outputs/detector/train/weights/best.pt",
+      "size_mb": 19.64
+    },
+    {
+      "path": "/kaggle/working/filament_outputs/detector/train/weights/last.pt",
+      "size_mb": 19.64
+    }
+  ]
+}
